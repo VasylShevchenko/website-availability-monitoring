@@ -1,5 +1,3 @@
-/.bundle
-
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
@@ -34,4 +32,11 @@ dump.rdb
 /.idea
 
 # System Files
-.DS_Store
+/.DS_Store
+
+/.bundle
+
+# Ignore application configuration
+/config/application.yml
+
+/.env
